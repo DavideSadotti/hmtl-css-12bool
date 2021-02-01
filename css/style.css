@@ -4,6 +4,6 @@ body{
 
 .row div{
   height: 200px;
+  line-height: 200px;
   text-align: center;
-  vertical-align: middle;
 }
