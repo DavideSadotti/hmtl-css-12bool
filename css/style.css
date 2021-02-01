@@ -1,9 +1,21 @@
-body{
+.container{
+  margin: 50px auto;
   background-color: #fac0cb;
 }
 
 .row div{
-  height: 200px;
   line-height: 200px;
   text-align: center;
+}
+
+.nested-container{
+  float: left;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.nested-container div{
+  background-color: #f07f80;
+  border: 1px solid white;
 }
